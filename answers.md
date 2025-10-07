@@ -16,10 +16,20 @@ Non, le dépôt distant (comme GitHub) n'est pas automatiquement mis à jour ave
 ### Task 3
  Consultez à nouveau le statut de votre dépôt, que constatez-vous ? Il y a un message untracked files
 ### Task 4
+- Que se passe-t-il lorsque vous revenez au commit « Initial commit » ?
+Lorsque vous revenez au commit "Initial commit", votre dépôt local est restauré à l'état exact de ce commit. Cela signifie que toutes les modifications apportées après ce commit seront perdues dans votre espace de travail, et les fichiers seront remis à l'état qu'ils avaient lors de ce commit initial. Cependant, les commits ultérieurs restent dans l'historique du dépôt et peuvent être récupérés si nécessaire.
+-  Que se passe-t-il lorsque vous revenez au dernier commit ?
+Lorsque vous revenez au dernier commit, votre dépôt local est restauré à l'état exact ou vous étiez lors de ce commit. Toutes les modifications apportées après ce commit seront perdues dans votre espace de travail, et les fichiers seront remis à l'état qu'ils avaient lors de ce dernier commit. Cependant, les commits ultérieurs restent dans l'historique du dépôt et peuvent être récupérés si nécessaire.
 
 ### Task 5
+- quel est la difference entre le depot local et le depot distant?
+Le dépôt local est la copie de votre projet qui réside sur votre machine locale, où vous effectuez des modifications, créez des commits et gérez votre historique de version. Le dépôt distant, en revanche, est une copie du projet hébergée sur un serveur distant (comme GitHub, GitLab, etc.) qui permet la collaboration avec d'autres développeurs et le partage de votre code.
+- Que se passe -t-il si on supprime le depot local?
+Si vous supprimez le dépôt local, vous perdez toutes les modifications non poussées vers le dépôt distant. Cependant, si vous avez déjà poussé vos commits vers le dépôt distant, vous pouvez toujours cloner à nouveau le dépôt distant pour récupérer une copie du projet.
 
 ### Task 6
+-  Avec toutes ces manipulations, qu’en est-il du dépôt originel, celui ayant été forké ? A-t’il été modifié ?
+ Le dépôt originel, celui ayant été forké, n'a pas été modifié par les manipulations effectuées dans votre fork. Les modifications apportées dans votre fork sont isolées et n'affectent pas le dépôt original. Pour que les modifications de votre fork soient intégrées dans le dépôt original, vous devez créer une pull request (PR) et obtenir l'approbation des mainteneurs du dépôt original.
 
 ## Gitgraph
 
