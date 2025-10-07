@@ -1,8 +1,8 @@
-# Answers of <students-firstname> <students-lastname> <github-username>
+# Answers of Gilles Nicol Gilles-Nicol
 
 ## Basics
 ### Task 1
-
+1 unstaged change: signifie qu'un fichier a été modifié mais pas encore ajouté à l'index (staging area) pour le prochain commit.
 ### Task 2
 
 ### Task 3
