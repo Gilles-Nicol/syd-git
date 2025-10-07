@@ -14,7 +14,7 @@ Lorsque vous créez un commit, les modifications qui ont été ajoutées à l'in
 -  Le dépôt distant (ici Github) est-il à jour avec nos modifications locales?
 Non, le dépôt distant (comme GitHub) n'est pas automatiquement mis à jour avec les modifications locales. Pour synchroniser les modifications locales avec le dépôt distant, vous devez utiliser la commande `git push` pour envoyer vos commits locaux vers le dépôt distant.
 ### Task 3
-
+ Consultez à nouveau le statut de votre dépôt, que constatez-vous ? Il y a un message untracked files
 ### Task 4
 
 ### Task 5
