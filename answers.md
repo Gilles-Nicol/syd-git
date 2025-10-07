@@ -34,5 +34,15 @@ Si vous supprimez le dépôt local, vous perdez toutes les modifications non pou
 ## Gitgraph
 
 ### Task 7
+1. nom de la branche
+2. hash de commit
+3. message de commit
+4. auteur du commit
+5. tag
+6. dernier commit
+7. branche secondaire (feature-auth)
+8. last commit de la branche initiale
+9. branche secondaire (develop)
+10. branche main
 
 ![Gitgraph](img/gitgraph.svg)
